@@ -11,6 +11,7 @@ if(isset($_POST['submit'])){
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $number = $_POST['number'];
     $date = $_POST['date'];
+<!-- Deploy 2 -->
 
     $insert = mysqli_query($conn, "INSERT INTO contact_form(name, email, number, date) VALUES('$name','$email','$number','$date')");
 
