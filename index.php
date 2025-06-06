@@ -1,5 +1,6 @@
 <?php
 
+<!-- Deploy 1 -->
 $conn = mysqli_connect('localhost','root','','dentist') or die('connection failed');
 if (mysqli_connect_errno($conn)){
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
